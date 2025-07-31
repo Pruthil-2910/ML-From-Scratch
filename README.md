@@ -1,9 +1,10 @@
 # 🚀 ML Algorithms From Scratch  
-> *Built with patience, maths, and midnight coffee ☕️.*
+> *Built with patience, Maths and Curiosity!
 
-![Made By](https://img.shields.io/badge/Made%20By%20Pruthil-blueviolet?style=flat-square)
-![Stars](https://img.shields.io/github/stars/Pruthil_2910/ML-Algos-From-Scratch?style=social)
-![License](https://img.shields.io/github/license/Pruthil_2910/ML-Algos-From-Scratch?color=brightgreen)
+
+![Made By](https://img.shields.io/badge/Made%20By-Pruthil-blueviolet?style=flat-square)
+![Stars](https://img.shields.io/github/stars/Pruthil-2910/ML-Algos-From-Scratch?style=social)
+![License](https://img.shields.io/github/license/Pruthil-2910/ML-Algos-From-Scratch?color=brightgreen)
 
 ---
 

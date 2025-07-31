@@ -1,18 +1,14 @@
 # 🚀 ML Algorithms From Scratch  
 > *Built with patience, maths, and midnight coffee ☕️.*
 
-![Made By](https://img.shields.io/badge/Made%20By-Sunny%20aka%20Pruthil-blueviolet?style=flat-square)
-![Stars](https://img.shields.io/github/stars/Pruthil_2910/ml-algorithms-from-scratch?style=social)
-![License](https://img.shields.io/github/license/Pruthil_2910/ml-algorithms-from-scratch?color=brightgreen)
+![Made By](https://img.shields.io/badge/Made%20By%20Pruthil-blueviolet?style=flat-square)
+![Stars](https://img.shields.io/github/stars/Pruthil_2910/ML-Algos-From-Scratch?style=social)
+![License](https://img.shields.io/github/license/Pruthil_2910/ML-Algos-From-Scratch?color=brightgreen)
 
 ---
 
-## 🧠 **Why this repo?**
-Because **importing is easy**, but **building teaches what’s under the hood**.  
-In this digital temple 🛕, I’m coding classic ML algorithms *from scratch* – no scikit-learn, no shortcuts – just:
-- Pure Python 🐍
-- Math scribbled on paper ✏️
-- And a sprinkle of stubborn curiosity 🌱
+A collection of classic machine learning algorithms implemented **from scratch** in Python.  
+No machine learning libraries – just pure Python and mathematics to truly understand how they work.
 
 ---
 
@@ -27,10 +23,6 @@ In this digital temple 🛕, I’m coding classic ML algorithms *from scratch* �
 | ...                      | 🧪 Planned      | More to come!               |
 
 ---
-
-## ⚡ **Philosophy**
-> *"Muscles don’t grow by watching; they grow by lifting weights."* 🏋️‍♂️  
-Same with ML: **understanding grows by building, failing, and fixing**.
 
 I’m not writing perfect code.  
 I’m writing **code that learns** – and helps *me* learn.

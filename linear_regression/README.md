@@ -12,11 +12,11 @@ This folder contains two Python implementations of Linear Regression built **com
 To show how the equations and derivations come from first principles, I’ve attached my own handwritten notes:
 
 | Topic                            | Image                                                                 |
-|----------------------------------|----------------------------------------------------------------------:|
-| Multiple Linear Regression (matrix form, normal equation derivation) | ![Multiple Linear Regression Derivation](MLR.webp) |
-| Continue: Matrix form & error minimization | ![Multiple Linear Regression Error](MLR2.webp) |
-| Matrix differentiation & finding coefficients | ![Multiple Linear Regression Coefficients](MLR3.webp) |
-| Simple Linear Regression derivation (calculating slope & intercept) | ![Simple Linear Regression Derivation](SimpleLR.jpeg) |
+|----------------------------------|:----------------------------------------------------------------------:|
+| <h2> Multiple Linear Regression (matrix form, normal equation derivation)</h2> |<img src="MLR.webp" width="400"> |
+| <h2> Continue: Matrix form & error minimization </h2>|<img src="MLR2.webp" width="400"> |
+| <h2> Matrix differentiation & finding coefficients </h2>|<img src="MLR3.webp" width="400"> |
+| <h2> Simple Linear Regression derivation (calculating slope & intercept)</h2>|<img src="SimpleLR.jpeg" width="400"> |
 
 These pages explain:
 - How to get from the basic hypothesis to **matrix form**: $\hat{y} = X \beta$

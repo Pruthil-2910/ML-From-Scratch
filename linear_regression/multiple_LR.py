@@ -1,6 +1,6 @@
 import numpy as np
 
-class MultipleLR():
+class MultipleLR:
   def __init__(self):
     self.coef_ = None
     self.intercept_ = None

@@ -13,7 +13,7 @@ To show how the equations and derivations come from first principles, I’ve att
 
 | Topic                            | Image                                                                 |
 |----------------------------------|:----------------------------------------------------------------------:|
-| # Multiple Linear Regression (matrix form, normal equation derivation) |<img src="MLR.webp" width="400"> |
+| <h2> Multiple Linear Regression (matrix form, normal equation derivation)</h2> |<img src="MLR.webp" width="400"> |
 | # Continue: Matrix form & error minimization |<img src="MLR2.webp" width="400"> |
 | # Matrix differentiation & finding coefficients |<img src="MLR3.webp" width="400"> |
 | # Simple Linear Regression derivation (calculating slope & intercept) |<img src="SimpleLR.jpeg" width="400">) |

@@ -15,8 +15,8 @@ To show how the equations and derivations come from first principles, I’ve att
 |----------------------------------|:----------------------------------------------------------------------:|
 | <h2> Multiple Linear Regression (matrix form, normal equation derivation)</h2> |<img src="MLR.webp" width="400"> |
 | <h2> Continue: Matrix form & error minimization </h2>|<img src="MLR2.webp" width="400"> |
-| <h2> Matrix differentiation & finding coefficients <h2>|<img src="MLR3.webp" width="400"> |
-| <h2> Simple Linear Regression derivation (calculating slope & intercept)</h2> |<img src="SimpleLR.jpeg" width="400">) |
+| <h2> Matrix differentiation & finding coefficients </h2>|<img src="MLR3.webp" width="400"> |
+| <h2> Simple Linear Regression derivation (calculating slope & intercept)</h2>|<img src="SimpleLR.jpeg" width="400"> |
 
 These pages explain:
 - How to get from the basic hypothesis to **matrix form**: $\hat{y} = X \beta$

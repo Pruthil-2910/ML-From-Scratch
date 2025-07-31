@@ -5,7 +5,7 @@ Author: Pruthil Prajapati
 """
 import numpy as np
 
-class mySimpleLinearRegression:
+class SimpleLR:
     def __init__(self):
         self.m = None
         self.b = None
@@ -29,7 +29,7 @@ class mySimpleLinearRegression:
         ss_res = np.sum((Ytrue - Ypred) ** 2)
         return 1 - (ss_res / ss_total)
 
-model = mySimpleLinearRegression()
+model = SimpleLR()
 
 """
 

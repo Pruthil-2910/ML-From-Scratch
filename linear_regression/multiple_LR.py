@@ -1,6 +1,11 @@
+"""
+Simple Linear Regression implemented from scratch using Python.
+Author: Pruthil Prajapati
+
+"""
 import numpy as np
 
-class MultipleLR():
+class MultipleLR:
   def __init__(self):
     self.coef_ = None
     self.intercept_ = None

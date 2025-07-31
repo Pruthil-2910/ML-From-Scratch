@@ -12,7 +12,7 @@ This folder contains two Python implementations of Linear Regression built **com
 To show how the equations and derivations come from first principles, I’ve attached my own handwritten notes:
 
 | Topic                            | Image                                                                 |
-|----------------------------------|----------------------------------------------------------------------:|
+|----------------------------------|:----------------------------------------------------------------------:|
 | Multiple Linear Regression (matrix form, normal equation derivation) |<img src="MLR.webp" width="400"> |
 | Continue: Matrix form & error minimization |<img src="MLR2.webp" width="400"> |
 | Matrix differentiation & finding coefficients |<img src="MLR3.webp" width="400"> |

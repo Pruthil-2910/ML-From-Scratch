@@ -36,4 +36,4 @@ I’m writing **code that learns** – and helps *me* learn.
 ```bash
 git clone https://github.com/Pruhtil_2910/ml-algorithms-from-scratch.git
 cd ml-algorithms-from-scratch
-python linear_regression/simple_linear_regression.py
+python linear_regression/simple_LR.py

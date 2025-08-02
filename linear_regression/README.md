@@ -40,6 +40,30 @@ These pages explain:
 - Predicts values and shows $R^2$ score.
 
 ---
+# ⚡ Linear Regression using Gradient Descent
+
+A minimal implementation of Linear Regression trained via **Gradient Descent**, built from scratch using only NumPy.
+Includes three classes:
+| Variant                    | Class name                | Method                                     |
+|--------------------------:|--------------------------:|-------------------------------------------:|
+| Batch Gradient Descent    | `BatchGDRegressor`        | Updates on full dataset every epoch       |
+| Stochastic Gradient Descent | `StochasticGDRegressor` | Updates on each single sample             |
+| Mini-Batch Gradient Descent | `MiniBatchGDRegressor`  | Updates on small random batches           |
+
+
+---
+
+## ✏️ **Why three variants?**
+Gradient Descent isn't just one algorithm:
+- **Batch GD**: stable, but slower on large data
+- **Stochastic GD**: faster & can escape local minima, but noisier
+- **Mini-Batch GD**: balance of speed and stability
+
+---
+
+## ⚙️ **How to use**
+```python
+from linear_regression_gd import GDRegressor
 
 ## ⚙️ **Run**
 

@@ -4,18 +4,24 @@ Author: Pruthil Prajapati
 
 """
 import numpy as np
+
 class GDRegressor:
   def __init__(self, Learning_Rate, Epochs):
     self.Learning_Rate = Learning_Rate
     self.Epochs = Epochs
     self.coef = None
     self.intercept = None
+    self.loss_history = []
 
   def fit(self, X_train, Y_train):
     self.intercept = 0
     self.coef = np.ones(X_train.shape[1])
+
     for i in range(self.Epochs):
       Y_hat = np.dot(X_train, self.coef) + self.intercept
+      loss = np.mean((Y_train - Y_hat) ** 2)
+      self.loss_history.append(loss)
+
       intercept_der = -2 * np.mean(Y_train - Y_hat)
       self.intercept -= self.Learning_Rate * intercept_der
       coef_der = -2 * np.dot((Y_train - Y_hat), X_train) / X_train.shape[0]
@@ -29,7 +35,6 @@ class GDRegressor:
     ss_total = np.sum((Y_true - Y_true.mean()) ** 2)
     ss_res = np.sum((Y_true - Y_pred) ** 2)
     return 1 - (ss_res / ss_total)
-
 
 model = GDRegressor(0.01,1000)
 """

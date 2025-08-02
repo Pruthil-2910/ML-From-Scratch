@@ -40,6 +40,17 @@ These pages explain:
 - Predicts values and shows $R^2$ score.
 
 ---
+# ⚡ Linear Regression using Gradient Descent
+
+A minimal implementation of Linear Regression trained via **Gradient Descent**, built from scratch using only NumPy.
+- Learns the best-fit line by iteratively updating weights and bias
+- Uses Mean Squared Error loss and its gradient
+
+---
+
+## ⚙️ **How to use**
+```python
+from linear_regression_gd import GDRegressor
 
 ## ⚙️ **Run**
 

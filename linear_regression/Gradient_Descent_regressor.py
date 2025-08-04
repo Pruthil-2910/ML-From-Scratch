@@ -130,3 +130,9 @@ class MBGDRegressor:
     ss_total = np.sum((Y_true - Y_true.mean()) ** 2)
     ss_res = np.sum((Y_true - Y_pred) ** 2)
     return 1 - (ss_res / ss_total)
+  
+"""
+model_minibatch.fit(X_train , Y_train)
+Y_pred = model_minibatch.predict(X_test)
+print(model_minibatch.r2_score(Y_true,Y_pred))
+"""

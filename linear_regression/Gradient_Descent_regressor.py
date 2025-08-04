@@ -87,3 +87,46 @@ model_stochastic.fit(X_train , Y_train)
 Y_pred = model_stochastic.predict(X_test)
 print(model_stochastic.r2_score(Y_true,Y_pred))
 """
+
+"""
+This is Mini Batch Gradient Descent Implementation 
+where for each epoch not whole data error is taken
+but only some batch of random y's error is taken in
+consideration. the model is trained by mini batches 
+
+"""
+
+
+import numpy as np
+import random
+
+class MBGDRegressor:
+  def __init__(self,batch_size, Learning_Rate, Epochs):
+    self.Learning_Rate = Learning_Rate
+    self.Epochs = Epochs
+    self.coef = None
+    self.intercept = None
+    self.batch_size = batch_size
+
+  def fit(self, X_train, Y_train):
+    self.intercept = 0
+    self.coef = np.ones(X_train.shape[1])
+
+    for i in range(self.Epochs):
+      for j in range(int(X_train.shape[0]/self.batch_size)):
+
+        idx = random.sample(range(0, X_train.shape[0]),self.batch_size)
+        Y_hat = np.dot(X_train[idx], self.coef) + self.intercept
+        intercept_der = -2 * np.mean(Y_train[idx] - Y_hat)
+        self.intercept -= self.Learning_Rate * intercept_der
+        coef_der = -2 * np.dot((Y_train[idx] - Y_hat), X_train[idx])
+        self.coef -= self.Learning_Rate * coef_der
+
+  def predict(self, X_test):
+    if self.coef is not None:
+        return np.dot(X_test, self.coef) + self.intercept
+
+  def r2_score(self, Y_true, Y_pred):
+    ss_total = np.sum((Y_true - Y_true.mean()) ** 2)
+    ss_res = np.sum((Y_true - Y_pred) ** 2)
+    return 1 - (ss_res / ss_total)

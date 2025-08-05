@@ -66,6 +66,7 @@ Implements polynomial regression from scratch, extending linear regression to ca
 Includes flexible degree selection for fitting complex curves while maintaining full control over the algorithm’s inner workings.
 </p>
 ---
+
 ## ⚙️ **How to use**
 ```python
 from linear_regression_gd import GDRegressor

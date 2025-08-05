@@ -1,3 +1,10 @@
+"""
+Polynomial Regression implemented from scratch using Python.
+Author: Pruthil Prajapati
+
+"""
+
+
 import numpy as np
 
 class PolynomialRegression:

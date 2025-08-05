@@ -70,8 +70,9 @@ Includes flexible degree selection for fitting complex curves while maintaining 
 ## ⚙️ **How to use**
 ```python
 from linear_regression import GDRegressor
-
-
 ```
+
+```bash
+
 python simple_linear_regression.py
 python multiple_linear_regression.py

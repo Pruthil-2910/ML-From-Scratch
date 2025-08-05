@@ -65,7 +65,7 @@ Gradient Descent isn't just one algorithm:
 Implements polynomial regression from scratch, extending linear regression to capture non-linear relationships in data.  
 Includes flexible degree selection for fitting complex curves while maintaining full control over the algorithm’s inner workings.
 </p>
----
+
 
 ## ⚙️ **How to use**
 ```python

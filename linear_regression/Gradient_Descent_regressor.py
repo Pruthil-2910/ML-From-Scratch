@@ -1,5 +1,5 @@
 """
-Simple Linear Regression implemented from scratch using Python.
+Simple Linear Regression implemented from scratch by Gradient Descent Approach using Python.
 Author: Pruthil Prajapati
 
 """

@@ -12,7 +12,6 @@ class MultipleLR:
 
   def fit(self , X_train , Y_train):
     X_train = np.insert(X_train , 0 , 1 , axis= 1)
-
     betas = np.linalg.inv(np.dot(X_train.T , X_train)).dot(X_train.T).dot(Y_train)
     self.intercept_ = betas[0]
     self.coef_ = betas[1:]

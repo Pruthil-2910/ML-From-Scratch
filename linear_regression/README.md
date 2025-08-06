@@ -60,13 +60,19 @@ Gradient Descent isn't just one algorithm:
 - **Mini-Batch GD**: balance of speed and stability
 
 ---
+## Polynomial Regression  
+<p>
+Implements polynomial regression from scratch, extending linear regression to capture non-linear relationships in data.  
+Includes flexible degree selection for fitting complex curves while maintaining full control over the algorithm’s inner workings.
+</p>
+
 
 ## ⚙️ **How to use**
 ```python
-from linear_regression_gd import GDRegressor
-
-## ⚙️ **Run**
+from linear_regression import GDRegressor
+```
 
 ```bash
+
 python simple_linear_regression.py
 python multiple_linear_regression.py

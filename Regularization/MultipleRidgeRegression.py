@@ -13,7 +13,7 @@ class MultipleRidgeRegression:
     def fit(self, Xtrain, Ytrain ):
         Xtrain = np.insert(Xtrain,0,1,axis=1)
         I = np.identity(Xtrain.shape[1])
-        I[0][0] = 0
+        I[0][0] = 0  ## why?? -> to not penalize the intercept 
         result = np.linalg.inv( Xtrain.T @ Xtrain + self.alpha * I) @ Xtrain.T @ Ytrain
         self.coef_ = result[1:]
         self.intercept_ = result[0]

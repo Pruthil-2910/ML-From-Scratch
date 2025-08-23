@@ -18,8 +18,10 @@ Ridge Regression adds an **L2 penalty** (squared magnitude of coefficients) to t
 
 <img src = "https://latex.codecogs.com/png.image?\huge&space;\dpi{110}\bg{white}L=\sum(y_{i}-\hat{y_{i}})^{2}&plus;\lambda(m)^{2}">
 
-# Coefficient M would be :
+# Coefficients m and b :
 <img src = "https://latex.codecogs.com/png.image?\huge&space;\dpi{110}\bg{white}&space;m=\frac{\sum((y_{i}-y_{mean})(x_{i}-x_{mean}))}{\sum(x_{i}-x_{mean})^{2}&plus;\lambda}">
+
+<img src= "https://latex.codecogs.com/png.image?\huge&space;\dpi{110}\bg{white}b=\bar{y}-m\bar{x}">
 
 here the only difference in the OLS Solution of linear regression and ridge regression is that Lambda is added into denominator because while differenciating the loss function with penalty term <strong>λ · m²</stromg>
 

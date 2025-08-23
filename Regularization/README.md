@@ -18,7 +18,7 @@ Ridge Regression adds an **L2 penalty** (squared magnitude of coefficients) to t
 
 <img src = "https://latex.codecogs.com/png.image?\huge&space;\dpi{110}\bg{white}&space;m=\frac{\sum((y_{i}-y_{mean})(x_{i}-x_{mean}))}{\sum(x_{i}-x_{mean})^{2}&plus;\lambda}">
 
-here the only difference in the OLS Solution of linear regression and ridge regression is that Lambda is added into denominator because while differenciating the loss function with penalty term λ · m²
+here the only difference in the OLS Solution of linear regression and ridge regression is that Lambda is added into denominator because while differenciating the loss function with penalty term <strong>λ · m²</stromg>
 
 - **Why use it?**
   - Reduces model complexity
@@ -35,5 +35,5 @@ here the only difference in the OLS Solution of linear regression and ridge regr
 ## 🚀 How to Run
 1. Clone the repo:
    ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
-   cd <your-repo>
+   git clone https://github.com/Pruthil-2910/ML-From-Scratch.git
+   cd ML-From-Scratch

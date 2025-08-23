@@ -28,11 +28,11 @@ Ridge Regression adds an **L2 penalty** (squared magnitude of coefficients) to t
 #### 📊 Steps Explanation:
 To understand the derivation and intuition, check the diagrams below:
 
-1. <img src=" https://drive.google.com/file/d/1LvT6rOYXrTu-klzX29CjD6ammtKZUh_p/view?usp=drive_link">
-2. <img src= "https://drive.google.com/file/d/1M-zppzw9IO-rtkTWJyb_y_JXJsoQpgw8/view?usp=drive_link">
+1. <img src="https://drive.google.com/uc?export=view&id=1M-zppzw9IO-rtkTWJyb_y_JXJsoQpgw8">
+2. <img src="https://drive.google.com/uc?export=view&id=1LvT6rOYXrTu-klzX29CjD6ammtKZUh_p">
 
 *(These images explain the mathematical derivation of Multiple Ridge Regression)*
-# Coefficients m and b for ND data:
+#### Coefficients m and b for ND data:
 
 here the only difference in the OLS Solution of linear regression and ridge regression is that Lambda is added into denominator because while differenciating the loss function with penalty term <strong>λ · m²</stromg>
 

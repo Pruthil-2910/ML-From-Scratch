@@ -28,8 +28,9 @@ Ridge Regression adds an **L2 penalty** (squared magnitude of coefficients) to t
 #### 📊 Steps Explanation:
 To understand the derivation and intuition, check the diagrams below:
 
-1. <img src="https://drive.google.com/uc?export=view&id=1M-zppzw9IO-rtkTWJyb_y_JXJsoQpgw8">
-2. <img src="https://drive.google.com/uc?export=view&id=1LvT6rOYXrTu-klzX29CjD6ammtKZUh_p">
+![Step 1](https://drive.google.com/uc?id=1M-zppzw9IO-rtkTWJyb_y_JXJsoQpgw8)
+![Step 2](https://drive.google.com/uc?id=1LvT6rOYXrTu-klzX29CjD6ammtKZUh_p)
+
 
 *(These images explain the mathematical derivation of Multiple Ridge Regression)*
 #### Coefficients m and b for ND data:

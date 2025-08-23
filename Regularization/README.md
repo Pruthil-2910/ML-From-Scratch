@@ -16,8 +16,7 @@ Regularization helps to **reduce overfitting** by penalizing large coefficients 
 
 Ridge Regression adds an **L2 penalty** (squared magnitude of coefficients) to the loss function: 
 
-<img src = "https://latex.codecogs.com/png.image?\huge&space;\dpi{110}\bg{white}L=\sum(y_{i}-\hat{y_{i}})^{2}&plus;\lambda(m)^{2}
-Key Features">
+<img src = "https://latex.codecogs.com/png.image?\huge&space;\dpi{110}\bg{white}L=\sum(y_{i}-\hat{y_{i}})^{2}&plus;\lambda(m)^{2}">
 
 # Coefficient M would be :
 <img src = "https://latex.codecogs.com/png.image?\huge&space;\dpi{110}\bg{white}&space;m=\frac{\sum((y_{i}-y_{mean})(x_{i}-x_{mean}))}{\sum(x_{i}-x_{mean})^{2}&plus;\lambda}">

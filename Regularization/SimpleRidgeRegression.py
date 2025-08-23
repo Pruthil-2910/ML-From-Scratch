@@ -28,13 +28,8 @@ class SimpleRidgeRegression:
         return 1 - (ss_res / ss_total)
 
 
-model = SimpleRidgeRegression()
+my_ridge = SimpleRidgeRegression(alpha=1.0) # You can adjust alpha
+# my_ridge.fit(X_train, y_train)
+# my_y_pred = my_ridge.predict(X_test)
+# my_r2 = my_ridge.r2_score(y_test, my_y_pred)
 
-"""
-
-Now you can you use the model on the parameters X_Train and Y_Train as given below and predict the Y_Pred
-model.fit(X_Train ,Y_Train)
-Y_Pred = model.predict(X_Test)
-score = model.r2_score(Y_train, Y_train_pred)
-
-"""

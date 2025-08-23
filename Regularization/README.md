@@ -5,14 +5,12 @@ Regularization helps to **reduce overfitting** by penalizing large coefficients 
 
 ---
 
-## 📂 Implementations
-- ✅ Ridge Regression (L2 Regularization) – *Completed*
-- ⬜ Lasso Regression (L1 Regularization) – *Upcoming*
-- ⬜ Elastic Net (Combination of L1 & L2) – *Upcoming*
-
----
-
 ## 📘 Ridge Regression (L2 Regularization)
+###  1. Simple Linear Ridge Regression
+- Implemented using the closed-form solution.  
+- Works on a single feature dataset.  
+- Shows how ridge regression prevents overfitting by shrinking coefficients.  
+
 
 Ridge Regression adds an **L2 penalty** (squared magnitude of coefficients) to the loss function: 
 
@@ -23,6 +21,17 @@ Ridge Regression adds an **L2 penalty** (squared magnitude of coefficients) to t
 
 <img src= "https://latex.codecogs.com/png.image?\huge&space;\dpi{110}\bg{white}b=\bar{y}-m\bar{x}">
 
+### 🔹 2. Multiple Linear Ridge Regression
+- Implemented using the **OLS closed-form solution** with Ridge penalty.  
+- Will soon add **Gradient Descent** solution in the coming days.  
+
+#### 📊 Steps Explanation:
+To understand the derivation and intuition, check the diagrams below:
+
+1. ![Step 1](https://drive.google.com/file/d/1LvT6rOYXrTu-klzX29CjD6ammtKZUh_p/view?usp=drive_link)  
+2. ![Step 2](https://drive.google.com/file/d/1M-zppzw9IO-rtkTWJyb_y_JXJsoQpgw8/view?usp=drive_link)  
+
+*(These images explain the mathematical derivation of Multiple Ridge Regression)*
 # Coefficients m and b for ND data:
 
 here the only difference in the OLS Solution of linear regression and ridge regression is that Lambda is added into denominator because while differenciating the loss function with penalty term <strong>λ · m²</stromg>
@@ -38,7 +47,12 @@ here the only difference in the OLS Solution of linear regression and ridge regr
     - Low `alpha` → behaves like Linear Regression  
 
 ---
+## 📂 Upcoming Additions
+- Gradient Descent implementation for Ridge Regression  
+- Lasso Regression  
+- Elastic Net Regression  
 
+---
 ## 🚀 How to Run
 1. Clone the repo:
    ```bash

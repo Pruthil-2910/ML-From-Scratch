@@ -14,11 +14,18 @@ Regularization helps to **reduce overfitting** by penalizing large coefficients 
 
 ## 📘 Ridge Regression (L2 Regularization)
 
-Ridge Regression adds an **L2 penalty** (squared magnitude of coefficients) to the loss function:
+Ridge Regression adds an **L2 penalty** (squared magnitude of coefficients) to the loss function: 
 
-\[
-\text{Loss} = \sum (y_i - \hat{y}_i)^2 + \alpha \sum \beta_j^2
-\]
+<img src = "https://latex.codecogs.com/png.image?\huge&space;\dpi{110}\bg{white}L=\sum(y_{i}-\hat{y_{i}})^{2}&plus;\lambda(m)^{2}">
+
+# Coefficients m and b for 2D data :
+<img src = "https://latex.codecogs.com/png.image?\huge&space;\dpi{110}\bg{white}&space;m=\frac{\sum((y_{i}-y_{mean})(x_{i}-x_{mean}))}{\sum(x_{i}-x_{mean})^{2}&plus;\lambda}">
+
+<img src= "https://latex.codecogs.com/png.image?\huge&space;\dpi{110}\bg{white}b=\bar{y}-m\bar{x}">
+
+# Coefficients m and b for ND data:
+
+here the only difference in the OLS Solution of linear regression and ridge regression is that Lambda is added into denominator because while differenciating the loss function with penalty term <strong>λ · m²</stromg>
 
 - **Why use it?**
   - Reduces model complexity
@@ -35,5 +42,5 @@ Ridge Regression adds an **L2 penalty** (squared magnitude of coefficients) to t
 ## 🚀 How to Run
 1. Clone the repo:
    ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
-   cd <your-repo>
+   git clone https://github.com/Pruthil-2910/ML-From-Scratch.git
+   cd ML-From-Scratch

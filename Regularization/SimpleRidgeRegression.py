@@ -1,5 +1,5 @@
 """
-Simple Ridge Regression implemented from scratch using Python.
+Simple Ridge (Linear)Regression implemented from scratch using Python.
 Author: Pruthil Prajapati
 
 """

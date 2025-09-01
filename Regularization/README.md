@@ -23,7 +23,9 @@ Ridge Regression adds an **L2 penalty** (squared magnitude of coefficients) to t
 
 ### 🔹 2. Multiple Linear Ridge Regression
 - Implemented using the **OLS closed-form solution** with Ridge penalty.  
-- Will soon add **Gradient Descent** solution in the coming days.  
+
+### 🚀 Ridge Regression (Gradient Descent)
+This version focuses only on learning weights and bias without extra tracking.  
 
 #### 📊 Steps Explanation:
 To understand the derivation and intuition, check the diagrams below:
@@ -49,7 +51,6 @@ here the only difference in the OLS Solution of linear regression and ridge regr
 
 ---
 ## 📂 Upcoming Additions
-- Gradient Descent implementation for Ridge Regression  
 - Lasso Regression  
 - Elastic Net Regression  
 

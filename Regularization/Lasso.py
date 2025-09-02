@@ -1,5 +1,9 @@
 
+"""
+Simple Linear Regression implemented from scratch by Gradient Descent Approach using Python.
+Author: Pruthil Prajapati
 
+"""
 import numpy as np
 
 class LassoRegressionGD:

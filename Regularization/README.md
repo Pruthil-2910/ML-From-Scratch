@@ -27,6 +27,10 @@ Ridge Regression adds an **L2 penalty** (squared magnitude of coefficients) to t
 ### 🚀 Ridge Regression (Gradient Descent)
 This version focuses only on learning weights and bias without extra tracking.  
 
+### 🔗 Lasso Regression  
+Implementation of **Lasso Regression** from scratch using Python and NumPy.  
+Introduces **L1 regularization**, which encourages sparsity by driving some coefficients exactly to zero.  
+
 #### 📊 Steps Explanation:
 To understand the derivation and intuition, check the diagrams below:
 
@@ -51,7 +55,6 @@ here the only difference in the OLS Solution of linear regression and ridge regr
 
 ---
 ## 📂 Upcoming Additions
-- Lasso Regression  
 - Elastic Net Regression  
 
 ---

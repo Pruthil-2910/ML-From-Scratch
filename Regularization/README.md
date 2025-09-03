@@ -53,9 +53,6 @@ here the only difference in the OLS Solution of linear regression and ridge regr
     - High `alpha` → more shrinkage, simpler model  
     - Low `alpha` → behaves like Linear Regression  
 
----
-## 📂 Upcoming Additions
-- Elastic Net Regression  
 
 ---
 ## 🚀 How to Run
